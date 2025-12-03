@@ -1,0 +1,85 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#F8F9FA"/>
+  
+  <!-- Header -->
+  <rect width="1200" height="80" fill="#FFFFFF"/>
+  <rect width="1200" height="2" y="80" fill="#E0E0E0"/>
+  
+  <!-- Logo Area -->
+  <circle cx="60" cy="40" r="20" fill="#FF6B35" opacity="0.2"/>
+  <rect x="100" y="25" width="150" height="15" rx="3" fill="#1A1A2E"/>
+  <rect x="100" y="45" width="100" height="8" rx="2" fill="#999999"/>
+  
+  <!-- Navigation -->
+  <rect x="900" y="30" width="60" height="10" rx="2" fill="#333333"/>
+  <rect x="980" y="30" width="80" height="10" rx="2" fill="#333333"/>
+  <rect x="1080" y="30" width="70" height="10" rx="2" fill="#333333"/>
+  
+  <!-- Hero Section -->
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004E89;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1A2E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect y="80" width="1200" height="400" fill="url(#heroGrad)"/>
+  
+  <!-- Hero Content -->
+  <rect x="300" y="200" width="600" height="40" rx="5" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="400" y="260" width="400" height="20" rx="3" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- CTA Buttons -->
+  <rect x="450" y="310" width="140" height="40" rx="8" fill="#FF6B35"/>
+  <rect x="610" y="310" width="140" height="40" rx="8" fill="#FFFFFF" opacity="0.2"/>
+  
+  <!-- Services Section -->
+  <rect y="520" width="1200" height="350" fill="#FFFFFF"/>
+  
+  <!-- Section Title -->
+  <rect x="450" y="550" width="300" height="30" rx="4" fill="#1A1A2E"/>
+  
+  <!-- Service Cards -->
+  <g transform="translate(100, 610)">
+    <!-- Card 1 -->
+    <rect width="320" height="220" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#FF6B35" opacity="0.2"/>
+    <rect x="20" y="80" width="280" height="15" rx="3" fill="#1A1A2E"/>
+    <rect x="20" y="105" width="250" height="8" rx="2" fill="#999999"/>
+    <rect x="20" y="118" width="280" height="8" rx="2" fill="#999999"/>
+    <rect x="20" y="140" width="200" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="20" y="153" width="220" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="20" y="180" width="100" height="12" rx="2" fill="#FF6B35"/>
+  </g>
+  
+  <g transform="translate(440, 610)">
+    <!-- Card 2 -->
+    <rect width="320" height="220" rx="8" fill="#FFF5F0" stroke="#FF6B35" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#FF6B35" opacity="0.3"/>
+    <rect x="20" y="80" width="280" height="15" rx="3" fill="#1A1A2E"/>
+    <rect x="20" y="105" width="250" height="8" rx="2" fill="#999999"/>
+    <rect x="20" y="118" width="280" height="8" rx="2" fill="#999999"/>
+    <rect x="20" y="140" width="200" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="20" y="153" width="220" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="20" y="180" width="100" height="12" rx="2" fill="#FF6B35"/>
+    <!-- Featured Badge -->
+    <rect x="240" y="15" width="60" height="20" rx="10" fill="#FF6B35"/>
+  </g>
+  
+  <g transform="translate(780, 610)">
+    <!-- Card 3 -->
+    <rect width="320" height="220" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+    <circle cx="40" cy="40" r="25" fill="#FF6B35" opacity="0.2"/>
+    <rect x="20" y="80" width="280" height="15" rx="3" fill="#1A1A2E"/>
+    <rect x="20" y="105" width="250" height="8" rx="2" fill="#999999"/>
+    <rect x="20" y="118" width="280" height="8" rx="2" fill="#999999"/>
+    <rect x="20" y="140" width="200" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="20" y="153" width="220" height="8" rx="2" fill="#CCCCCC"/>
+    <rect x="20" y="180" width="100" height="12" rx="2" fill="#FF6B35"/>
+  </g>
+  
+  <!-- Theme Name -->
+  <text x="600" y="890" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1A1A2E" text-anchor="middle">
+    Haushalt Reparatur Service Theme
+  </text>
+</svg>
